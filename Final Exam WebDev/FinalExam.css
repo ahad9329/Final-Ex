@@ -1,0 +1,604 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.nav1{
+    background-color: transparent;
+    width: 100%;
+    margin-top: 1%;
+
+    
+}
+.headings1{
+    
+    
+    line-height: 3px;
+    margin-top: 1%;
+
+    
+}
+.h1{
+    display: inline-block;
+    list-style: none;
+    margin-top: 1%;
+    
+
+
+
+    
+}
+.a1{
+    color: white;
+    text-decoration: none;
+    padding: 0px 25px;
+    font-size: medium;
+    font-family:'Bebas Neue', sans-serif;
+    font-weight: bold;
+    
+    
+}
+.logo-text{
+    font-size: 45px;
+    font-weight: bold;
+    float: left;
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-left: 3%;
+    
+}
+.information-text
+{
+    font-size: medium;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-left: 17%;
+       
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    pointer-events: all;
+    
+}
+.h1:hover{
+    
+    text-decoration:  2px underline darkblue ;
+    transition: all 0.1s ease 0s;
+    
+}
+body
+{
+    background-image: url('Air_University_Main_Campus,_Islamabad.jpg') ;
+    background-size: 100% 100%; /* 100% width, 25% height */
+    background-position: center top; /* Center horizontally, align to the top */
+    width: 100%;
+    height: 641px;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+}
+
+.nav2{
+    background-color: transparent;
+    width: 100%;
+}
+.headings2{
+    line-height: 3px;
+    display:inline-block;
+    margin-left: 150px;
+    
+}
+.h2{
+    display:inline-block;
+    list-style: none;
+    margin-top: 10%;
+    
+}
+.a2{
+        color: white;
+        text-decoration: none;
+        padding: 0px 25px;
+        font-size: medium;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: bold;
+        font-size: larger;
+        
+        
+        
+}
+.h2 :hover{
+    border: 1px solid rgb(2, 2, 63);
+    border-width: 10px;
+    border-radius: 12px;
+    background-color: rgb(2, 2, 63);
+    text-decoration: wavy;
+    color: white;
+    transition: all 0.1s ease 0s;
+    position: relative;
+    
+
+    
+}
+.splash-scroller{
+    margin-top: 410px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(2, 2, 63);
+    bottom: 0;
+    padding: 7px 0 8px;
+    text-shadow: 0 1px 7px rgba(0,0,0,.4);
+    box-shadow: 0 -20px 60px rgba(0,0,0,.4);
+    position:  relative;
+    padding: 10px;
+}
+.splash-scroller-text{
+    font-family: Calibri;
+    color: white;
+    font-size: larger;
+    margin-left: 45%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.mission-heading{
+    font-family: Helvetica;
+    font-size: 3.0517578125em;
+    margin-top: 160px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 35%;
+    
+    
+}
+.mission-heading-text{
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align:center;
+    font-size: xx-large;   
+    margin-top: 90px; 
+}
+.more-button{
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 420px;
+}
+.more-button:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#news-sec{
+    margin-top: 200px;
+    background-color: #f4f4f4;
+    height: 1400px;
+}
+.campus-news{
+    font-family: Helvetica;
+    font-size: 3.0517578125em;
+    margin-top: 150px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 35%;
+}
+.video{
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: 12%;
+    
+}
+#cs{
+    border: 5px solid rgb(2, 2, 63);
+    height: 445px;
+    display: inline-block;
+    width: 290px;
+    margin-top: 170px;
+    margin-left: 50px;
+}
+.aero{
+    border: 5px solid rgb(2, 2, 63);
+    height: 445px;
+    width: 290px;
+    display: inline-block;
+    margin-left: 22px;
+}
+.ss{
+    border: 5px solid rgb(2, 2, 63);
+    height: 445px;
+    width: 290px;
+    display: inline-block;
+    margin-left: 22px;
+}
+.convoc{
+    border: 5px solid rgb(2, 2, 63);
+    height: 445px;
+    width: 290px;
+    display: inline-block;
+    margin-left: 22px;
+    
+
+}
+.more-button2{
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 420px;
+}
+.more-button2:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#academic{
+    height: 600px;
+    font-family: Helvetica;
+}
+.academics{
+    
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 40%;
+}
+.Undergraduate{
+    margin-left: 50px;
+    margin-top: 80px;
+    display: inline-block;
+    
+}
+.impacts{
+    margin-left: 40px;
+    margin-top: 80px;
+    display: inline-block;
+    
+}
+.graduate{
+    margin-left: 40px;
+    margin-top: 80px;
+    display: inline-block;
+    
+}
+.more-button3{
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button3:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#research{
+    height: 600px;
+    font-family: Helvetica;
+}
+.research-heading{
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 40%;
+}
+.data{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;
+    t
+}
+.data-2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.more-button4{  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button4:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#upcoming-events{
+    background-color: #f4f4f4;
+    height: 900px;
+    margin-top: 80px;
+}
+
+.upcoming-events-heading{
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    
+}
+.Talk{
+    border: 5px gainsboro;
+    height: 530px;
+    width: 272px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+
+}
+.tech{
+    border: 5px gainsboro;
+    height: 530px;
+    width: 272px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+
+}
+.islamic-event{
+    border: 5px gainsboro;
+    height: 530px;
+    width: 272px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+
+
+}
+.ltalks{
+    border: 5px gainsboro;
+    height: 530px;
+    width: 272px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: white;
+
+
+}
+
+.more-button5{  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button5:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#health-care{
+    height: 900px;
+}
+.health-care-heading{
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-bottom: 50px;
+
+}
+.healthcare-heading-text{
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align:center;
+    font-size: xx-large;   
+    margin-top: 50px; 
+
+}
+.aumed{
+    margin-left: 50px;
+    margin-top: 70px;
+    display: inline-block;
+    
+}
+.auhealth{
+    margin-left: 40px;
+    margin-top: 70px;
+    display: inline-block;
+}
+.austudenthealth{
+    margin-left: 40px;
+    margin-top: 70px;
+    display: inline-block;
+}
+.more-button6{  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button6:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#campus-life{
+
+    background-color: #f4f4f4;
+    height: 850px;
+}
+.campus-life-heading{
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-bottom: 50px;
+
+}
+.campus-life-heading-text{
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align:center;
+    font-size: xx-large;   
+    margin-top: 50px; 
+
+}
+.student-life{
+    margin-left: 50px;
+    margin-top: 70px;
+    display: inline-block;
+}
+.art{
+    margin-left: 40px;
+    margin-top: 70px;
+    display: inline-block;
+}
+.recreation{
+    margin-left: 40px;
+    margin-top: 70px;
+    display: inline-block;
+
+}
+.more-button7{  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button7:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+#admissions{
+    height: 900px;
+    margin-top: 70px;
+}
+.admissions-heading{
+
+    font-size: 3.0517578125em;
+    margin-top: 100px;
+       
+    color: rgb(2, 2, 63);
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-bottom: 50px;
+
+}
+.admissions-heading-text{
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align:center;
+    font-size: xx-large;   
+    margin-top: 50px; 
+
+}
+.more-button8{  display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(2, 2, 63);
+    border: none;
+    cursor: pointer;
+    margin-top: 400px;
+    align-items: center;
+    margin-left: 380px;
+}
+.more-button8:hover
+{   
+    background-color: rgb(1, 1, 29);
+}
+
+
+
+.button-column button {
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border: 4px solid black;
+   width: 200px;    
+   margin-left: 10px;
+   display: flex;
+   flex-direction: column;
+   margin-left: 1140px;
+   
+}
+
+.button-column button:hover {
+    background-color: white;
+    color: rgb(3, 43, 163);
+    border: 5px solid rgb(54, 147, 179);
+}
+.footer{
+    background-color: rgb(54, 147, 179);
+     height: 250px;
+     margin-top: 50px;
+}
+
+
+
+
